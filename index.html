@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voyage</title>
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/main-min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-font/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui/jquery-ui-1.12.1.custom.css">
+</head>
+<body>
+    <header>
+        <section id="header-top-section">
+            <div class="header-top-section-wrap">
+                <div class="header-top-section-cell header-top-section-cell1-style">
+                    <a href="#" id="header-top-agent-authorization" class="header-top-menu-link">
+                        <i class="fa fa-user header-top-section-icons-size"></i>
+                        <span class="font-top-menu">Agent Login</span>
+                    </a>
+                </div>
+                <div id="header-top-agent-authorization-form" title="Agent Authorization">
+                    <form method="post" action="#" class="header-top-agent-authorization-form-wrap">
+                        <span>E-mail</span>
+                        <input id="header-author-authorization-email" name="login" type="email" size="20">
+                        <span class="style4">Password</span>
+                        <input name="pass" type="password" size="20">
+                        <input type="submit" name="Submit" value="Sign in" class="header-submit-button header-top-agent-authorization-form-submit-style">
+                        <a href="#" class="header-top-agent-authorization-form-registration">Registration</a>
+                        <a href="#" class="header-top-agent-authorization-form-forgot-pass">Forgot password</a>
+                    </form>
+                </div>
+                <div class="header-top-section-cell header-top-section-cell2-style">
+                    <a href="#" class="header-top-menu-link">
+                        <i class="fa fa-user header-top-section-icons-size"></i>
+                        <span class="font-top-menu">Customer Login</span>
+                    </a>
+                </div>
+                <div class="header-top-section-cell header-top-section-cell3-style">
+                    <i class="fa fa-file-o light-text-theme header-top-section-icons-size-const"></i>
+                    <span class="font-top-menu-const"> Not a Member?
+                        <a href="#" class="header-top-menu-link">
+                            Register
+                        </a>
+                    </span>
+                </div>
+                <div class="header-top-section-cell header-top-section-cell4-style">
+                    <span class="font-top-menu-const">Call Us Now :
+                        <a href="tel:8151234567" class="header-top-menu-link">
+                            815-123-4567
+                        </a>
+                    </span>
+                </div>
+                <div class="header-top-section-cell header-top-section-social-style">
+                    <a href="http://facebook.com" class="header-top-menu-link">
+                        <i class="fa fa-facebook header-top-section-icons-size"></i>
+                    </a>
+                </div>
+                <div class="header-top-section-cell header-top-section-social-style">
+                    <a href="http://twitter.com" class="header-top-menu-link">
+                        <i class="fa fa-twitter header-top-section-icons-size"></i>
+                    </a>
+                </div>
+                <div class="header-top-section-cell header-top-section-social-style">
+                    <a href="http://twitter.com" class="header-top-menu-link">
+                        <i class="fa fa-tumblr header-top-section-icons-size"></i>
+                    </a>
+                </div>
+                <div class="header-top-section-cell header-top-section-social-style">
+                    <a href="http://picassa.com" class="header-top-menu-link">
+                        <i class="fa fa-pinterest header-top-section-icons-size"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="header-menu-section">
+            <div class="header-menu-section-wrap">
+                <div class="header-animation-plane">
+                    <i class="fa fa-plane fa-2x"></i>
+                </div>
+                <div class="header-logo-style">
+                    <a href="#" class="header-main-logo">
+                        <span class="logo-font-style">v<span class="logo-font-special header-logo-letter-animation">o</span>yage</span>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="header-menu-nav-list">
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">destinations</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">cruises</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">specials</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">holidays</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-menu-nav-list-item header-menu-nav-list-item-font-style">blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-menu-section-search-logo">
+                    <a href="#">
+                        <i class="fa fa-search header-menu-section-search-logo-add"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="header-main-section">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="header-main-section-title-block-wrap">
+                    <div class="header-main-section-title-block">
+                        <span class="header-main-section-title-style">
+                            To travel is to live
+                        </span>
+                        <span class="header-main-section-title-under-style">
+                           You Don't Need Magic to Disappear. All you need is a destination.
+                        </span>
+                        <div class="header-main-section-title-link-wrap">
+                            <a href="#" class="header-main-section-title-link header-main-section-title-link-style">
+                                show on the map
+                            </a>
+                            <a href="#" class="header-main-section-title-link header-main-section-title-link-style">
+                                more info
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active header-main-section header-main-section-slider-item1">
+                        <div class="header-main-section-shade"></div>
+                    </div>
+                    <div class="carousel-item header-main-section header-main-section-slider-item2">
+                        <div class="header-main-section-shade"></div>
+                    </div>
+                    <div class="carousel-item header-main-section header-main-section-slider-item3">
+                        <div class="header-main-section-shade"></div>
+                    </div>
+                </div>
+                <div class="carousel-control-canvas carousel-control-canvas-previous carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left fa-3x"></i>
+                </div>
+                <div class="carousel-control-canvas carousel-control-canvas-next carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <i class="fa fa-angle-right fa-3x"></i>
+                </div>
+            </div>
+        </section>
+        <section class="header-form-section">
+            <div class="container-main">
+                <div class="header-form-section-block">
+                    <div class="header-form-section-invitation">
+                        <span class="header-form-section-invitation-style">
+                            find your
+                        </span>
+                        <span class="header-form-section-invitation-style-down">
+                            holidays
+                        </span>
+                    </div>
+                    <div class="header-form-section-main header-form-section-main-style">
+                        <form method="post">
+                            <label for="header-form-where">
+                                Where
+                            </label>
+                            <div class="header-form-main-wrap">
+                                <input id="header-form-where" class="header-form-common" type="text" placeholder="destination" tabindex="1">
+                                <i class="fa fa-globe header-form-main-decor"></i>
+                            </div>
+                            <div class="header-form-main-wrap">
+                                <label for="header-form-when">
+                                    When
+                                </label>
+                                <input id="header-form-when" class="header-form-common" type="text" placeholder="select date" tabindex="2">
+                                <i class="fa fa-calendar header-form-main-decor"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header-form-section-search-button">
+                        <span class="header-form-section-search-button-style header-form-section-main-style">
+                            Search
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="section-offers">
+            <div class="section-offers-wrap">
+                <span class="section-offers-title-style section-title-common-style">special offers</span>
+                <span class="section-offers-title-add-style section-title-common-style-under">Best 2018 packages where people love to stay!</span>
+            </div>
+            <div class="section-special-offers">
+                <div id="section-special-offers-wrap">
+                    <input class="section-special-offers-input" type="radio" name="slider-special-offers" id="switcher1-offers">
+                    <input class="section-special-offers-input" type="radio" name="slider-special-offers" id="switcher2-offers">
+                    <input  class="section-special-offers-input" type="radio" name="slider-special-offers" id="switcher3-offers" checked>
+                    <input class="section-special-offers-input" type="radio" name="slider-special-offers" id="switcher4-offers">
+                    <input class="section-special-offers-input" type="radio" name="slider-special-offers" id="switcher5-offers">
+                    <div class="section-special-offers-carousel">
+                        <div class="section-special-offers-item section-special-offers-item1">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">Special Offer</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Hong Kong&Macau</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item2">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Magical Paris</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item3">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style"> Grand Canyon </span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item4">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Beautiful Rome</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item5">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Dubai</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item6">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Secrets of Vietnam</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item7">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">No More Words</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">USA</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item8">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Prague</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item9">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Spain</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item10">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Greece</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item1">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">Special Offer</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Hong Kong&Macau</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item2">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Magical Paris</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item3">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style"> Grand Canyon </span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item4">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Beautiful Rome</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-special-offers-item section-special-offers-item5">
+                            <div class="section-special-offers-item-wrap">
+                                <span class="section-special-offers-item-content-down section-special-offers-item-content-down-style">New Destination!</span>
+                                <span class="section-special-offers-item-content-up section-special-offers-item-content-up-style">Dubai</span>
+                                <div class="section-special-offers-item-content-link-wrap">
+                                    <a href="#" class="section-special-offers-item-content-link">
+                                        <i class="fa fa-angle-down fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="section-special-offers-controls">
+                        <label for="switcher1-offers"></label>
+                        <label for="switcher2-offers"></label>
+                        <label for="switcher3-offers"></label>
+                        <label for="switcher4-offers"></label>
+                        <label for="switcher5-offers"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-holidays">
+            <div class="container-main">
+                <div class="section-holidays-content">
+                    <span class="section-holiday-title-style section-title-common-style">holidays type</span>
+                    <span class="section-holiday-title-under-style section-title-common-style-under">Get explore your dream to travel the world!</span>
+                    <div class="section-holidays-icons">
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-cruise.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-cruise-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">Cruise</span>
+                        </a>
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-city.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-city-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">City Breaks</span>
+                        </a>
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-honeymoon.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-honeymoon-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">Honeymoon</span>
+                        </a>
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-adventure.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-adventure-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">Adventure</span>
+                        </a>
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-safari.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-safari-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">Safari</span>
+                        </a>
+                        <a href="#" class="section-holidays-single-icon">
+                            <div class="section-holidays-single-icon-circle">
+                                <img class="section-holidays-single-icon-position" src="images/icons/holidays-type-icons/holiday-type-beach.png"/>
+                                <img class="section-holidays-single-icon-hover" src="images/icons/holidays-type-icons/holiday-type-beach-hover.png"/>
+                            </div>
+                            <span class="section-holidays-single-icon-subtitle-style">Beach</span>
+                        </a>
+                    </div>
+                </div>
+            </div>>
+        </section>
+        <section class="section-clients-reviews">
+            <div class="container-main">
+                <div class="section-clients-reviews-content">
+                    <span class="section-clients-reviews-title-style section-title-common-style">happy clients</span>
+                    <span class="section-clients-reviews-title-under-style section-title-common-style-under">What customer say about us and why love our services!</span>
+                </div>
+            </div>
+            <div id="section-clients-reviews-wrap">
+                <input class="section-clients-reviews-input" type="radio" name="slider-clients-reviews" id="switcher1-reviews">
+                <input class="section-clients-reviews-input" type="radio" name="slider-clients-reviews" id="switcher2-reviews">
+                <input class="section-clients-reviews-input" type="radio" name="slider-clients-reviews" id="switcher3-reviews" checked>
+                <input class="section-clients-reviews-input" type="radio" name="slider-clients-reviews" id="switcher4-reviews">
+                <input class="section-clients-reviews-input" type="radio" name="slider-clients-reviews" id="switcher5-reviews">
+                <div class="section-clients-reviews-carousel">
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                    <div class="section-clients-reviews-item">
+                        <div class="section-clients-reviews-item-note-overflow">
+                            <blockquote class="section-clients-reviews-item-note-style section-title-common-style-under">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text.</blockquote>
+                        </div>
+                        <span class="section-clients-reviews-item-name-style">Client Name</span>
+                        <span class="section-clients-reviews-item-location-style">Unites States</span>
+                        <div class="section-clients-reviews-item-add"></div>
+                    </div>
+                </div>
+                <div id="section-clients-reviews-controls">
+                    <label for="switcher1-reviews"></label>
+                    <label for="switcher2-reviews"></label>
+                    <label for="switcher3-reviews"></label>
+                    <label for="switcher4-reviews"></label>
+                    <label for="switcher5-reviews"></label>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-upper-part">
+            <div class="container-main">
+                <div class="footer-upper-part-wrap">
+                    <div class="footer-upper-part-column">
+                        <span class="footer-upper-part-column-title-style">Newsletter</span>
+                        <span class="footer-upper-part-column-content footer-upper-part-column-content-style">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</span>
+                        <form action="#" method="post">
+                            <input type="email" class="footer-upper-part-input-form footer-upper-part-input-form-style" value="Subscribes..." required>
+                            <button class="footer-upper-part-submit-form footer-upper-part-submit-form-style">go</button>
+                        </form>
+                    </div>
+                    <div class="footer-upper-part-column">
+                        <span class="footer-upper-part-column-title-style">Latest News</span>
+                        <a href="#" class="footer-upper-part-news-link">
+                            <div class="footer-upper-part-news-link-container">
+                                <div class="footer-upper-part-news-link-wrap">
+                                    <div class="footer-upper-part-news-link-image footer-upper-part-news-link-image1"></div>
+                                </div>
+                                <div class="footer-upper-part-column-content-style">
+                                    <span class="footer-upper-part-column-content-enlargened-space">Postformat Gallery: Multiple images</span>
+                                    <span class="footer-upper-part-column-date-style">October 21, 2013 - 3:31 pm</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="footer-upper-part-news-link">
+                            <div class="footer-upper-part-news-link-container">
+                                <div class="footer-upper-part-news-link-wrap">
+                                    <div class="footer-upper-part-news-link-image footer-upper-part-news-link-image2"></div>
+                                </div>
+                                <div class="footer-upper-part-column-content-style">
+                                    <span class="footer-upper-part-column-content-enlargened-space">Snowboarding is fun!</span>
+                                    <span class="footer-upper-part-column-date-style">December 12, 2012 - 9:11 pm</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footer-upper-part-column">
+                        <span class="footer-upper-part-column-title-style">Tags</span>
+                        <div class="footer-upper-part-tags-wrap">
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Agent Login</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Customer Login</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Not a Member?</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Contact</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">New Horizons</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Landscape</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Tags</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Nice</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Some</a>
+                            <a href="#" class="footer-upper-part-tag-single-item footer-upper-part-column-content-style">Portrait</a>
+                        </div>
+                    </div>
+                    <div class="footer-upper-part-column">
+                        <span class="footer-upper-part-column-title-style">Tags</span>
+                        <span class="footer-upper-part-address footer-upper-part-column-content-style footer-upper-part-column-content-enlargened-space">DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany</span>
+                        <span class="footer-upper-part-email-link-style">E-mail:</span>
+                        <a href="mailto:moin@blindtextgenerator.de" class="footer-upper-part-email-link footer-upper-part-column-content-style">moin@blindtextgenerator.de</a>
+                        <div class="footer-upper-part-address-social-links-section">
+                            <a href="http://facebook.com" class="footer-upper-part-menu-link">
+                                <i class="fa fa-facebook fa-lg"></i>
+                            </a>
+                            <a href="http://twitter.com" class="footer-upper-part-menu-link">
+                                <i class="fa fa-twitter fa-lg"></i>
+                            </a>
+                            <a href="http://tumbler.com" class="footer-upper-part-menu-link">
+                                <i class="fa fa-tumblr fa-lg"></i>
+                            </a>
+                            <a href="http://picassa.com" class="footer-upper-part-menu-link">
+                                <i class="fa fa-pinterest fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-lower-part">
+            <div class="footer-lower-part-position">
+                <div class="footer-lower-part-wrap">
+                    <ul class="footer-lower-part-inner-links-list">
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Home</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Destinations</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Cruises</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Specils</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Holidays</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Blog</a>
+                            <span class="footer-lower-part-links-divider">::</span>
+                        </li>
+                        <li class="footer-lower-part-inner-link">
+                            <a href="#" class="footer-lower-part-links-style">Contact Us</a>
+                        </li>
+                    </ul>
+                    <span class="footer-lower-part-copyright-style">Copyright &copy Voyage. All Right Reserved.</span>
+                    <div class="footer-lower-part-home-arrow">
+                        <a href="#header-top-section" class="footer-lower-part-home-arrow-link-wrap">
+                            <i class="footer-lower-part-home-arrow-position fa fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-lower-part-logo-position">
+                    <a href="#" class="footer-lower-part-logo-style">Voyage</a>
+                    <img src="images/icons/logo-add.png" alt="Voyage" class="footer-lower-part-logo-add" title="Voyage">
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="js/bootstrap/jquery-slim.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery/jquery-ui-1.12.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

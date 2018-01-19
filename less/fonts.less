@@ -1,0 +1,260 @@
+@import "variables.less";
+
+@font-face {
+  font-family: "FontAwesome";
+  src: local('FontAwesome');
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot");
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/FontAwesome/fontawesome-webfont.ttf") format('truetype'),
+  url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Light';
+  src: local('Roboto Light');
+  src: url("../fonts/Roboto/Roboto-Light-webfont.eot");
+  src: url("../fonts/Roboto/Roboto-Light-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Roboto/Roboto-Light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  src: local('Roboto Medium');
+  src: url("../fonts/Roboto/Roboto-Medium-webfont.eot");
+  src: url("../fonts/Roboto/Roboto-Medium-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Roboto/Roboto-Medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Bold';
+  src: local('Roboto Bold');
+  src: url("../fonts/Roboto/Roboto-Bold-webfont.eot");
+  src: url("../fonts/Roboto/Roboto-Bold-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Roboto/Roboto-Bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Regular';
+  src: local('Roboto Regular');
+  src: url("../fonts/Roboto/Roboto-Regular-webfont.eot");
+  src: url("../fonts/Roboto/Roboto-Regular-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Roboto/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: local('Myriad Pro Regular');
+  src: url("../fonts/Myriad-pro-regular/Myriad-pro-regular.eot");
+  src: url("../fonts/Myriad-pro-regular/Myriad-pro-regular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Myriad-pro-regular/Myriad-pro-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-top-menu {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 15px;
+}
+.font-top-menu-const{
+  .font-top-menu;
+  color: #fff;
+}
+.logo-font-style{
+  font-family: 'Roboto Bold', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: @main-background-color;
+}
+.logo-font-special{
+  color: @main-features-color;
+}
+.header-top-section-icons-size{
+  font-size: 15px;
+  margin-right: 5px;
+}
+.header-top-section-icons-size-const{
+  .header-top-section-icons-size;
+  color: #fff;
+}
+.header{
+  &-menu-nav-list-item-font-style{
+    color: #5d6e80;
+    text-transform: uppercase;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 15px;
+    margin-right: 38px;
+  }
+  &-main-title{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: @main-background-color;
+  }
+  &-main-section-title-style{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &-main-section-title-under-style{
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 25px;
+    color: #fff;
+  }
+  &-main-section-title-link-style{
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &-form-section-invitation-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #9fb0c0;
+    display: block;
+  }
+  &-form-section-invitation-style-down {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+  }
+  &-form-section-main-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 20px;
+  }
+}
+.section-title-common-style{
+  font-family: 'Roboto Medium', sans-serif;
+  font-size: @section-titles-font-height;
+  text-transform: uppercase;
+}
+.section-offers-title-style{
+  color: @main-background-color;
+}
+.section-title-common-style-under{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 16px;
+}
+.section-offers-title-add-style {
+  color: #626262;
+}
+.section-special-offers-item-content-down-style{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 13px;
+  color: #626262;
+}
+.section-special-offers-item-content-up-style{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 15px;
+  color: #626262;
+}
+.section-holiday-title-style{
+  color: #fff;
+}
+.section-holiday-title-under-style{
+  color: #9eafc0;
+  margin-top: 10px;
+}
+.section-holidays-single-icon-subtitle-style{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 20px;
+  color: #9dafc0;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.section-clients-reviews-title-style{
+  color: @main-background-color;
+}
+.section-clients-reviews-title-under-style{
+  color: #626262;
+  margin-top: 10px;
+}
+.section-clients-reviews-item-note-style{
+  color: #4d4d4d;
+  display: block;
+}
+.section-clients-reviews-item-name-style{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 18px;
+  color: @main-features-color;
+  display: block;
+}
+.section-clients-reviews-item-location-style{
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 13px;
+  color: #b2b2b2;
+  display: block;
+  margin-top: -5px;
+}
+.footer{
+  &-upper-part-column-title-style{
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: @main-features-color;
+    display: block;
+  }
+  &-upper-part-column-content-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    display: block;
+  }
+  &-upper-part-input-form-style{
+    color: #626262;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+  }
+  &-upper-part-submit-form-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &-upper-part-column-content-enlargened-space{
+    line-height: 23px;
+  }
+  &-upper-part-column-date-style{
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 12px;
+    color: @main-features-color;
+    display: block;
+    margin-top: 5px;
+  }
+  &-upper-part-email-link-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: @main-features-color;
+    display: inline-block;
+  }
+  &-lower-part-links-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    color: #fff;
+  }
+  &-lower-part-links-style:hover{
+    color: @main-features-color;
+  }
+  &-lower-part-copyright-style{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 13px;
+    color: #9dafc0;
+  }
+  &-lower-part-logo-style{
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 45px;
+    color: #fff;
+  }
+}

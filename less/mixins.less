@@ -1,0 +1,9 @@
+//_____mixins___
+
+
+.mixin-section-special-offers-images(@n) when (@n>0){
+  .section-special-offers-item@{n}{
+    background: url("../images/offers/offer@{n}.jpg") no-repeat center top / cover;
+  }
+  .mixin-section-special-offers-images((@n)-1);
+}

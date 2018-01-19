@@ -1,0 +1,19 @@
+{
+    "name": "Gorbachev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "node node_modules/less-watch-compile -f less/main.less -o css",
+        "compile": "lessc less/main.less css/main.css",
+        "minify": "cleancss -o css/main-min.css css/main.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "less": "^2.7.3",
+        "less-plugin-clean-css": "^1.5.1",
+        "less-watch-compile": "^1.1.8"
+    },
+    "dependencies": {}
+}
